@@ -1,0 +1,11 @@
+type Account @entity {
+  id: ID!
+  account: String
+  balance: BigInt
+}
+
+type BalanceSum @entity {
+  id: ID!
+  account: String
+  balance: BigInt
+}
